@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/Hasil"
+        android:layout_width="166dp"
+        android:layout_height="47dp"
+        android:layout_x="8dp"
+        android:layout_y="10dp"
+        android:text="Hasil" />
+    
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="192dp"
+        android:layout_y="116dp"
+        android:src="@drawable/tas_depan" />
+
+    <ImageView
+        android:id="@+id/kado"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_x="310dp"
+        android:layout_y="76dp"
+        android:src="@drawable/kado" />
+
+</AbsoluteLayout>
